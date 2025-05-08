@@ -4,15 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <title>juicy</title>
+    <link rel="stylesheet" href="juicy.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
 </head>
 
 <body>
     <!-- navbar -->
-    <nav id="navbar" class="navbar bg-body-tertiary px-3 mb-3 position-fixed w-100">
-        <h2>juicy kondoty</h2>
+    <nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3 w-100" style="position: fixed;">
+        <h2> <a class="navbar-brand" href="#">juicy kondoty</a></h2>
         <ul class="nav nav-pills">
             <li class="nav-item">
                 <a class="nav-link text-black" href="#scrollspyHeading1">home</a>
@@ -29,68 +30,293 @@
             <li class="nav-item">
                 <a class="nav-link text-black" href="#scrollspyHeading2">contact</a>
             </li>
+
+        </ul>
+        </li>
         </ul>
     </nav>
+    <!-- <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+       
+      </div> -->
 
-    <div class="container1 d-flex w-100 justify-content-center align-items-center"
-        style="height: 580px; gap: 200px; background-image: url(https://img.freepik.com/free-photo/herbs-garlic-aligned-triangle-shape_23-2148285375.jpg?t=st=1746591952~exp=1746595552~hmac=815ef965f1bba2d3b67342bc50ab466b49b304d28ca0802f27c2d067f5d2cea7&w=2000); background-size: cover;">
+    <!-- home -->
 
-        <div class="w-50 d-flex justify-content-center ">
-            <img class="logo rounded-circle"
+    <div class=" main d-flex w-100 flex-sm-wrap justify-content-center justify-content-lg-evenly
+    justify-content-sm-evenly align-items-center pt-5 flex-wrap"
+        style="height: 580px; background-image: url(https://img.freepik.com/premium-photo/flat-lay-composition-with-citrus-fruits-leaves-flowers-white-background-copy-space-banner_370312-155.jpg?w=2000);background-size: cover;">
+
+        <div class=" d-flex justify-content-center align-items-center" >
+            <img class="rounded-circle"
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMyHwA5WiS80XGHYwcsZ4FJ8rQ6bhxFMir4gtYFBHdHATzvRaja_Yo86iNItM-doAVYgU&usqp=CAU"
-                alt="" style="height: 300px; width: 300px;">
+                alt="">
         </div>
-        <div class="w-50 d-flex flex-column justify-content-center align-items-start">
-            <h1>food made with love</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit sapiente vero, alias recusandae magni
-                architecto iure dolorem quo quibusdam. Praesentium magni vitae perferendis odit cum et blanditiis eum
-                minus incidunt.</p>
-            <button type="button" class="btn btn-outline-dark">order now</button>
+        <div class="d-flex flex-column justify-content-sm-center justify-content-center" style="width: 400px; height: 200px; ">
+            <h2>Food Made With Love</h2><br>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore saepe
+                accusantium est eum sapiente reiciendis suscipit beatae itaque nisi quis vel aliquid esse illo, culpa
+                voluptatum voluptatem eligendi aspernatur rerum.</p>
+            <button type="button" class="btn btn-outline-dark " style="width: 150px">Order now</button>
+
+
+
         </div>
+
     </div>
+
     <!-- gallery -->
-    <!-- <div class="bg-gradient w-100 mt-2 " style="background-color: #f7f7f7;"> -->
-    <div class="container d-flex justify-content-center align-items-center">
-        <h3 class="">gallery</h3>
-    </div>
-    <div style="display: flex; gap: 20px;">
-        <div class="container d-flex flex-wrap gap-5">
-            <div class="rounded-3 " style="width: 30%; height:  450px; border: 1px solid black;"> <img
-                    src="https://img.freepik.com/free-photo/glass-chocolate-milk-dark-surface_1150-43331.jpg?w=360&t=st=1702372937~exp=1702373537~hmac=b7e130dd3d90608a16f5ec3a9aa123f977da5aa00f3b6e08ee6b9b4606e55ec2"
-                    alt="" style="height: 450px; width: 100%;"></div>
-            <div class="rounded-3 " style="width: 30%; height:  450px; border: 1px solid black;"> <img
-                    src="https://img.freepik.com/free-photo/glass-chocolate-milk-dark-surface_1150-43331.jpg?w=360&t=st=1702372937~exp=1702373537~hmac=b7e130dd3d90608a16f5ec3a9aa123f977da5aa00f3b6e08ee6b9b4606e55ec2"
-                    alt="" style="height: 450px; width: 100%;"></div>
-            <div class="rounded-3 " style="width: 30%; height:  450px; border: 1px solid black;"> <img
-                    src="https://img.freepik.com/free-photo/glass-chocolate-milk-dark-surface_1150-43331.jpg?w=360&t=st=1702372937~exp=1702373537~hmac=b7e130dd3d90608a16f5ec3a9aa123f977da5aa00f3b6e08ee6b9b4606e55ec2"
-                    alt="" style="height: 450px; width: 100%;"></div>
 
-            <!-- <div class=" container d-flex gap-5"> -->
-            <div class="rounded-3 " style="width: 30%; height:  450px; border: 1px solid black;"> <img
-                    src="https://img.freepik.com/free-photo/glass-chocolate-milk-dark-surface_1150-43331.jpg?w=360&t=st=1702372937~exp=1702373537~hmac=b7e130dd3d90608a16f5ec3a9aa123f977da5aa00f3b6e08ee6b9b4606e55ec2"
-                    alt="" style="height: 450px; width: 100%;"></div>
-            <div class="rounded-3 " style="width: 30%; height:  450px; border: 1px solid black;"> <img
-                    src="https://img.freepik.com/free-photo/glass-chocolate-milk-dark-surface_1150-43331.jpg?w=360&t=st=1702372937~exp=1702373537~hmac=b7e130dd3d90608a16f5ec3a9aa123f977da5aa00f3b6e08ee6b9b4606e55ec2"
-                    alt="" style="height: 450px; width: 100%;"></div>
-            <div class="rounded-3 " style="width: 30%; height:  450px; border: 1px solid black;"> <img
-                    src="https://img.freepik.com/free-photo/glass-chocolate-milk-dark-surface_1150-43331.jpg?w=360&t=st=1702372937~exp=1702373537~hmac=b7e130dd3d90608a16f5ec3a9aa123f977da5aa00f3b6e08ee6b9b4606e55ec2"
-                    alt="" style="height: 450px; width: 100%;"></div>
-            <!-- </div> --> <div class="rounded-3 " style="width: 30%; height:  450px; border: 1px solid black;"> <img
-                    src="https://img.freepik.com/free-photo/glass-chocolate-milk-dark-surface_1150-43331.jpg?w=360&t=st=1702372937~exp=1702373537~hmac=b7e130dd3d90608a16f5ec3a9aa123f977da5aa00f3b6e08ee6b9b4606e55ec2"
-                    alt="" style="height: 450px; width: 100%;"></div>
-            <div class="rounded-3 " style="width: 30%; height:  450px; border: 1px solid black;"> <img
-                    src="https://img.freepik.com/free-photo/glass-chocolate-milk-dark-surface_1150-43331.jpg?w=360&t=st=1702372937~exp=1702373537~hmac=b7e130dd3d90608a16f5ec3a9aa123f977da5aa00f3b6e08ee6b9b4606e55ec2"
-                    alt="" style="height: 450px; width: 100%;"></div>
-           
+    <div class="w-100 mt-2 col-6" style="height: 1670px; background-color: #f7f7f7">
+
+        <div class=" d-flex align-items-end justify-content-center" style="height: 100px;">
+            <h3 class="text-center">Gallery</h3>
         </div>
 
-    </div>
-    <!-- </div> -->
+
+        <br>
+        <div class="container">
+            <div class=" d-lg-flex d-flex gap-5 flex-wrap justify-content-center ">
+                <div class="col-md-3 col col-md-3 rounded-3 d-flex flex-wrap" style=" border: 1px solid black;">
+                    <img class="rounded-3"
+                        src="https://img.freepik.com/free-photo/front-view-cold-cocktail-colored-inside-glass-can-with-colorful-straw-with-ice-cubes-oranges-green-leaves-isolated-wooden-desk-dark_140725-18063.jpg?w=360&t=st=1702372445~exp=1702373045~hmac=e54c6d3107b2425f1d2775e42077fb0af25d5b2201dff31badda661d6e3bc4a6"
+                        alt="" style="width: 100%;height: 500px;background-size: cover;">
+                </div>
+                <div class=" col-md-3 col-6 col-md-3  rounded-3" style=" border: 1px solid black;">
+                    <img class="rounded-3"
+                        src="https://img.freepik.com/free-photo/glass-chocolate-milk-dark-surface_1150-43331.jpg?w=360&t=st=1702372937~exp=1702373537~hmac=b7e130dd3d90608a16f5ec3a9aa123f977da5aa00f3b6e08ee6b9b4606e55ec2"
+                        alt="" style="width: 100%;height: 500px;">
+                </div>
+                <div class="col-md-3 col-6 col-md-3 rounded-3" style=" border: 1px solid black;">
+                    <img class="rounded-3"
+                        src="https://img.freepik.com/free-photo/blue-iced-cocktail-with-lemon-slice_140725-323.jpg?w=740&t=st=1702372362~exp=1702372962~hmac=8b2d7530bd17e21d378b85010d7a8d52eed505f120c52f7d3de9d1721160c6c7"
+                        alt="" style="width: 100%;height: 500px;">
+                </div>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
-        crossorigin="anonymous"></script>
+
+            </div>
+            <div class="d-lg-flex d-flex gap-4 flex-wrap justify-content-center pt-5">
+                <div class="col-md-3 col-6 rounded-3" style=" border: 1px solid black;">
+                    <img class="rounded-3"
+                        src="https://img.freepik.com/free-photo/front-view-fresh-cool-lemonade-inside-little-glass-with-ice-blue-background-water-cold-juice-cocktail-color-bar-drink-fruit_140725-157069.jpg?w=360&t=st=1702372417~exp=1702373017~hmac=46eb5683bd4b24f865f2fd1cdbcb9f2caa1cc3cb174e8428b6536f25a68720fd"
+                        alt="" style="width: 100%;height: 450px;">
+                </div>
+                <div class="col-md-3 col-6 rounded-3" style=" border: 1px solid black;">
+                    <img class="rounded-3"
+                        src="https://img.freepik.com/free-photo/healthy-kiwi-smoothie-summer-recipe_53876-30503.jpg?w=360&t=st=1702372575~exp=1702373175~hmac=1cf1ebcab0100dd3c64f2449e25e11e5f792effdae5e5768d62e14a266ae08a0"
+                        alt="" style="width: 100%;height: 450px;">
+                </div>
+                <div class="col-md-3 col-6 rounded-3" style=" border: 1px solid black;">
+                    <img class="rounded-3"
+                        src="https://img.freepik.com/free-photo/front-view-chocolate-dessert-glass-with-straw_23-2148603311.jpg?w=360&t=st=1702372657~exp=1702373257~hmac=44886dc67a99455da13e4668cf45bb547361e87aab6040e7112cb881e87d0707"
+                        alt="" style="width: 100%;height: 450px;">
+                </div>
+
+            </div>
+            <div class="d-lg-flex d-flex gap-4 flex-wrap justify-content-center pt-5">
+                <div class=" col-md-3 col rounded-3" style=" border: 1px solid black;">
+                    <img class="rounded-3"
+                        src="https://img.freepik.com/free-photo/cold-coffee-frappe-with-cream_140725-9503.jpg?w=360&t=st=1702372677~exp=1702373277~hmac=053068dd52df59750dd968c60a569af9a67bebd8250830eebfe66c21b50501ab"
+                        alt="" style="width: 100%;height: 450px;">
+                </div>
+                <div class="col col-md-3 rounded-3" style=" border: 1px solid black;">
+                    <img class="rounded-3"
+                        src="https://img.freepik.com/free-photo/caramel-milkshake-with-sprinkles-green-surface_114579-33779.jpg?w=360&t=st=1702372695~exp=1702373295~hmac=5b428f57dbddcffb6b9d01639dd024b2c7085a035933de47dd6d43f037bd5ce9"
+                        alt="" style="width: 100%;height: 450px;">
+                </div>
+
+            </div>
+            <br>
+
+            <!-- menu -->
+
+            <div class=" gap-4 w-100" style="height: 650px;">
+                <div class="w-100 d-flex justify-content-center align-items-end" style="height: 100px;">
+                    <h1 class="text-center">Juicy Menu</h1>
+                </div>
+
+                <div class=" container d-flex">
+                    <div class="w-50">
+                        <div class="d-flex justify-content-center gap-5">
+                            <img class="rounded-circle" style="width: 80px;height: 80px;"
+                                src="https://img.freepik.com/free-photo/summer-mojito-cocktail_93675-128425.jpg?w=360&t=st=1702381146~exp=1702381746~hmac=24a23e297923f07f277e103e84ae13815a85dcf6ffb747532b46fabde840cfaf"
+                                alt="">
+
+                            <h3 class="mt-3">green mojito</h3>
+                            <h3 class="text-danger mt-3">$99.00</h3>
+                        </div><br>
+                        <div class="d-flex justify-content-center gap-5">
+                            <img class="rounded-circle" style="width: 80px;height: 80px;"
+                                src="https://img.freepik.com/free-photo/glass-water-with-lemon_181624-675.jpg?w=360&t=st=1702391248~exp=1702391848~hmac=87911ca3966d72942bd2798ef66c41f4ea05142d88a28bfd794948d6edde74a4"
+                                alt="">
+
+                            <h3 class="mt-3">Green Mojito</h3>
+                            <h3 class="text-danger mt-3">$99.00</h3>
+                        </div><br>
+                        <div class="d-flex justify-content-center gap-5">
+                            <img class="rounded-circle" style="width: 80px;height: 80px;"
+                                src="https://img.freepik.com/free-photo/healthy-kiwi-smoothie-summer-recipe_53876-30503.jpg?w=360&t=st=1702390957~exp=1702391557~hmac=82d4da53667a58a479c3a5b0ee64c445b2f7951031f064ed8a6fc4c021a06de0"
+                                alt="">
+
+                            <h3 class="mt-3">Green Mojito</h3>
+                            <h3 class="text-danger mt-3">$99.00</h3>
+                        </div><br>
+                        <div class="d-flex justify-content-center gap-5">
+                            <img class="rounded-circle" style="width: 80px;height: 80px;"
+                                src="https://img.freepik.com/free-photo/iced-cocktails-drinking-glass-with-beach-sea_74190-6882.jpg?w=360&t=st=1702391145~exp=1702391745~hmac=5fe6e22978f9ea749d973ab89d16abbc545fb02b5d68bb5bc61f3491c5a68a11"
+                                alt="">
+
+                            <h3 class="mt-3">Green Mojito</h3>
+                            <h3 class="text-danger mt-3">$99.00</h3>
+                        </div><br>
+                        <div class="d-flex justify-content-center gap-5">
+                            <img class="rounded-circle" style="width: 80px;height: 80px;"
+                                src="https://img.freepik.com/free-photo/glass-strawberry-milkshake-topped-with-whipped-cream-strawberry_140725-4877.jpg?w=740&t=st=1702391414~exp=1702392014~hmac=7d741af15eaec4374e8b28056d90b9bc2be05b62a97b0c769f4bf791f2038fc7"
+                                alt="">
+
+                            <h3 class="mt-3">Green Mojito</h3>
+                            <h3 class="text-danger mt-3">$99.00</h3>
+                        </div><br>
+                    </div>
+                    <div class="w-50">
+                        <div class="d-flex justify-content-center gap-5">
+                            <img class="rounded-circle" style="width: 80px;height: 80px;"
+                                src="https://img.freepik.com/free-photo/close-up-chocolate-milkshake_23-2148635681.jpg?w=740&t=st=1702391876~exp=1702392476~hmac=13db2d741b8c16fd4c199e09bae6f8e2216a213da076e0155822146d9f947e80"
+                                alt="">
+
+                            <h3 class="mt-3">Green Mojito</h3>
+                            <h3 class="text-danger mt-3">$99.00</h3>
+                        </div><br>
+                        <div class="d-flex justify-content-center gap-5">
+                            <img class="rounded-circle" style="width: 80px;height: 80px;"
+                                src="https://img.freepik.com/free-photo/cocktail-with-lemon-slices-ice-cubes-mint_141793-581.jpg?w=740&t=st=1702391666~exp=1702392266~hmac=9904ef5dfc449abf1cfa61516ff8c3779a42235b7b45ea239aad4cef3a910cd3"
+                                alt="">
+
+                            <h3 class="mt-3">Green Mojito</h3>
+                            <h3 class="text-danger mt-3">$99.00</h3>
+                        </div><br>
+                        <div class="d-flex justify-content-center gap-5">
+                            <img class="rounded-circle" style="width: 80px;height: 80px;"
+                                src="https://img.freepik.com/premium-photo/ice-cream-with-milk-chocolate-black-wooden-background-copy-space_187166-27295.jpg?w=360"
+                                alt="">
+
+                            <h3 class="mt-3">Green Mojito</h3>
+                            <h3 class="text-danger mt-3">$99.00</h3>
+                        </div><br>
+                        <div class="d-flex justify-content-center gap-5">
+                            <img class="rounded-circle" style="width: 80px;height: 80px;"
+                                src="https://img.freepik.com/free-photo/ice-cream-with-cookie-table_140725-9225.jpg?w=740&t=st=1702391345~exp=1702391945~hmac=94af0d7a7f70ec02e62e44870487cb925dbaf62b7cc0a17093dfbab92acee5c1"
+                                alt="">
+
+                            <h3 class="mt-3">Green Mojito</h3>
+                            <h3 class="text-danger mt-3">$99.00</h3>
+                        </div><br>
+                        <div class="d-flex justify-content-center gap-5">
+                            <img class="rounded-circle" style="width: 80px;height: 80px;"
+                                src="https://img.freepik.com/premium-photo/fresh-mango-juice_315337-4006.jpg?w=740"
+                                alt="">
+
+                            <h3 class="mt-3">Green Mojito</h3>
+                            <h3 class="text-danger mt-3">$99.00</h3>
+                        </div><br>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- time-->
+
+            <div class="" style="background-color: #f7f7f7;width: 100%;height: 600px;">
+                <div class="w-100 d-flex justify-content-center align-items-end" style="height: 100px;">
+                    <h3 class="text-center">Juicy Timing</h3>
+                </div>
+
+                <div class="container d-flex justify-content-center">
+                    <div class="rounded-5 d-flex align-items-center justify-content-center"
+                        style="width: 500px;height: 400px;box-shadow: 10px 10px 30px black;background-image: url(https://www.alphafoodie.com/wp-content/uploads/2021/11/Apple-Juice-Square.jpeg);background-size: cover;">
+                        <h1 class=" text-light text-center ">JUICY DAY <br> HAPPY DAY</h1>
+                    </div>
+                    <div class="rounded-5" style="width: 500px;height: 400px;box-shadow: 10px 10px 30px black;">
+                        <div class="">
+                            <h1 class="text-center" style="font-size: 30px;">Opening Hours </h1><br>
+
+                            <p class="text-center fw-bold" style="word-spacing: 80px; font-size: 20px;">sunday 11am<span
+                                    style="color: red;">to</span>10pm</p>
+                            <p class="text-center fw-bold" style="word-spacing: 80px; font-size: 20px;">monday 11am<span
+                                    style="color: red;">to</span>10pm</p>
+                            <p class="text-center fw-bold" style="word-spacing: 80px; font-size: 20px;">tuesday
+                                11am<span style="color: red;">to</span>10pm</p>
+                            <p class="text-center fw-bold" style="word-spacing: 80px; font-size: 20px;">wednesday
+                                11am<span style="color: red;">to</span>10pm</p>
+                            <p class="text-center fw-bold" style="word-spacing: 80px;  font-size: 20px;">thursday
+                                11am<span style="color: red;">to</span>10pm</p>
+                            <p class="text-center fw-bold" style="word-spacing: 80px; font-size: 20px;">friday 11am<span
+                                    style="color: red;">to</span>10pm</p>
+                            <p class="text-center fw-bold" style="word-spacing: 80px; font-size: 20px;">saturday
+                                11am<span style="color: red;">to</span>10pm</p>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- contact -->
+
+            <div class="container-fluid">
+                <h1 class="text-center pt-5">Contact</h1><br><br>
+
+                <div class=" d-flex justify-content-center gap-5">
+
+                    <div>
+
+                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="icon icon-tabler icons-tabler-outline icon-tabler-brand-whatsapp">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9" />
+                            <path
+                                d="M9 10a.5 .5 0 0 0 1 0v-1a.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a.5 .5 0 0 0 0 -1h-1a.5 .5 0 0 0 0 1" />
+                        </svg>
+
+                    </div>
+
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="icon icon-tabler icons-tabler-outline icon-tabler-brand-instagram">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M4 8a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" />
+                            <path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+                            <path d="M16.5 7.5v.01" />
+                        </svg>
+                    </div>
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="icon icon-tabler icons-tabler-outline icon-tabler-mail">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z" />
+                            <path d="M3 7l9 6l9 -6" />
+                        </svg>
+                    </div>
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="icon icon-tabler icons-tabler-outline icon-tabler-phone">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path
+                                d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
+                        </svg>
+                    </div>
+                </div>
+
+            </div><br><br>
+
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+                crossorigin="anonymous"></script>
 </body>
 
 </html>
