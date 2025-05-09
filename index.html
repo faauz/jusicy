@@ -12,29 +12,23 @@
 
 <body>
     <!-- navbar -->
-    <nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3 w-100" style="position: fixed;">
-        <h2> <a class="navbar-brand" href="#">juicy kondoty</a></h2>
-        <ul class="nav nav-pills">
-            <li class="nav-item">
-                <a class="nav-link text-black" href="#scrollspyHeading1">home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-black" href="#scrollspyHeading2">gallery</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-black" href="#scrollspyHeading2">menu</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-black" href="#scrollspyHeading2">time</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-black" href="#scrollspyHeading2">contact</a>
-            </li>
-
-        </ul>
-        </li>
-        </ul>
-    </nav>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary position-fixed w-100">
+        <div class="container-fluid d-flex justify-content-between w-100">
+          <a class="navbar-brand" href="#">juicy kondoty</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse flex-grow-0" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#">gallery</a>
+              <a class="nav-link" href="#">menu</a>
+              <a class="nav-link" >time</a>
+              <a class="nav-link" href="#">contact</a>
+            </div>
+          </div>
+        </div>
+      </nav>
     <!-- <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
        
       </div> -->
@@ -50,7 +44,7 @@
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMyHwA5WiS80XGHYwcsZ4FJ8rQ6bhxFMir4gtYFBHdHATzvRaja_Yo86iNItM-doAVYgU&usqp=CAU"
                 alt="">
         </div>
-        <div class="d-flex flex-column justify-content-sm-center justify-content-center" style="width: 400px; height: 200px; ">
+        <div class="d-flex px-4 px-md-0 flex-column justify-content-center align-items-center align-items-sm-start" style="width: 400px; height: 200px; ">
             <h2>Food Made With Love</h2><br>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore saepe
                 accusantium est eum sapiente reiciendis suscipit beatae itaque nisi quis vel aliquid esse illo, culpa
@@ -65,7 +59,7 @@
 
     <!-- gallery -->
 
-    <div class="w-100 mt-2 col-6" style="height: 1670px; background-color: #f7f7f7">
+    <div class="w-100 mt-2 col" style=" background-color: #f7f7f7">
 
         <div class=" d-flex align-items-end justify-content-center" style="height: 100px;">
             <h3 class="text-center">Gallery</h3>
@@ -74,18 +68,18 @@
 
         <br>
         <div class="container">
-            <div class=" d-lg-flex d-flex gap-5 flex-wrap justify-content-center ">
-                <div class="col-md-3 col col-md-3 rounded-3 d-flex flex-wrap" style=" border: 1px solid black;">
+            <div class="row d-lg-flex d-flex gap-4 flex-wrap justify-content-center ">
+                <div class="col-md-6 col-12 col-lg-3  rounded-3 d-flex flex-wrap" >
                     <img class="rounded-3"
                         src="https://img.freepik.com/free-photo/front-view-cold-cocktail-colored-inside-glass-can-with-colorful-straw-with-ice-cubes-oranges-green-leaves-isolated-wooden-desk-dark_140725-18063.jpg?w=360&t=st=1702372445~exp=1702373045~hmac=e54c6d3107b2425f1d2775e42077fb0af25d5b2201dff31badda661d6e3bc4a6"
                         alt="" style="width: 100%;height: 500px;background-size: cover;">
                 </div>
-                <div class=" col-md-3 col-6 col-md-3  rounded-3" style=" border: 1px solid black;">
+                <div class=" col-md-6 col-12 col-lg-3 rounded-3" >
                     <img class="rounded-3"
                         src="https://img.freepik.com/free-photo/glass-chocolate-milk-dark-surface_1150-43331.jpg?w=360&t=st=1702372937~exp=1702373537~hmac=b7e130dd3d90608a16f5ec3a9aa123f977da5aa00f3b6e08ee6b9b4606e55ec2"
                         alt="" style="width: 100%;height: 500px;">
                 </div>
-                <div class="col-md-3 col-6 col-md-3 rounded-3" style=" border: 1px solid black;">
+                <div class="col-md-6 col-12 col-lg-3 rounded-3" >
                     <img class="rounded-3"
                         src="https://img.freepik.com/free-photo/blue-iced-cocktail-with-lemon-slice_140725-323.jpg?w=740&t=st=1702372362~exp=1702372962~hmac=8b2d7530bd17e21d378b85010d7a8d52eed505f120c52f7d3de9d1721160c6c7"
                         alt="" style="width: 100%;height: 500px;">
@@ -94,34 +88,34 @@
 
 
             </div>
-            <div class="d-lg-flex d-flex gap-4 flex-wrap justify-content-center pt-5">
-                <div class="col-md-3 col-6 rounded-3" style=" border: 1px solid black;">
+            <div class="row d-lg-flex d-flex gap-4 flex-wrap justify-content-center pt-5">
+                <div class="col-md-6 col-12 col-lg-3 rounded-3" >
                     <img class="rounded-3"
                         src="https://img.freepik.com/free-photo/front-view-fresh-cool-lemonade-inside-little-glass-with-ice-blue-background-water-cold-juice-cocktail-color-bar-drink-fruit_140725-157069.jpg?w=360&t=st=1702372417~exp=1702373017~hmac=46eb5683bd4b24f865f2fd1cdbcb9f2caa1cc3cb174e8428b6536f25a68720fd"
-                        alt="" style="width: 100%;height: 450px;">
+                        alt="" style="width: 100%;height: 500px;">
                 </div>
-                <div class="col-md-3 col-6 rounded-3" style=" border: 1px solid black;">
+                <div class="col-md-6 col-12 col-lg-3 rounded-3">
                     <img class="rounded-3"
                         src="https://img.freepik.com/free-photo/healthy-kiwi-smoothie-summer-recipe_53876-30503.jpg?w=360&t=st=1702372575~exp=1702373175~hmac=1cf1ebcab0100dd3c64f2449e25e11e5f792effdae5e5768d62e14a266ae08a0"
-                        alt="" style="width: 100%;height: 450px;">
+                        alt="" style="width: 100%;height: 500px;">
                 </div>
-                <div class="col-md-3 col-6 rounded-3" style=" border: 1px solid black;">
+                <div class="col-md-6 col-12 col-lg-3 rounded-3" >
                     <img class="rounded-3"
                         src="https://img.freepik.com/free-photo/front-view-chocolate-dessert-glass-with-straw_23-2148603311.jpg?w=360&t=st=1702372657~exp=1702373257~hmac=44886dc67a99455da13e4668cf45bb547361e87aab6040e7112cb881e87d0707"
-                        alt="" style="width: 100%;height: 450px;">
+                        alt="" style="width: 100%;height: 500px;">
                 </div>
 
             </div>
-            <div class="d-lg-flex d-flex gap-4 flex-wrap justify-content-center pt-5">
-                <div class=" col-md-3 col rounded-3" style=" border: 1px solid black;">
+            <div class=" row d-lg-flex d-flex gap-4 flex-wrap justify-content-center pt-5">
+                <div class=" col-md-6 col-lg-3 col-12 rounded-3" >
                     <img class="rounded-3"
                         src="https://img.freepik.com/free-photo/cold-coffee-frappe-with-cream_140725-9503.jpg?w=360&t=st=1702372677~exp=1702373277~hmac=053068dd52df59750dd968c60a569af9a67bebd8250830eebfe66c21b50501ab"
-                        alt="" style="width: 100%;height: 450px;">
+                        alt="" style="width: 100%;height: 500px">
                 </div>
-                <div class="col col-md-3 rounded-3" style=" border: 1px solid black;">
+                <div class="col-12 col-md-6 col-lg-3 rounded-3" >
                     <img class="rounded-3"
                         src="https://img.freepik.com/free-photo/caramel-milkshake-with-sprinkles-green-surface_114579-33779.jpg?w=360&t=st=1702372695~exp=1702373295~hmac=5b428f57dbddcffb6b9d01639dd024b2c7085a035933de47dd6d43f037bd5ce9"
-                        alt="" style="width: 100%;height: 450px;">
+                        alt="" style="width: 100%;height: 500px">
                 </div>
 
             </div>
@@ -129,12 +123,12 @@
 
             <!-- menu -->
 
-            <div class=" gap-4 w-100" style="height: 650px;">
+            <div class=" gap-4 w-100 " >
                 <div class="w-100 d-flex justify-content-center align-items-end" style="height: 100px;">
                     <h1 class="text-center">Juicy Menu</h1>
                 </div>
 
-                <div class=" container d-flex">
+                <div class=" container d-flex flex-column flex-lg-row align-items-center">
                     <div class="w-50">
                         <div class="d-flex justify-content-center gap-5">
                             <img class="rounded-circle" style="width: 80px;height: 80px;"
@@ -227,17 +221,17 @@
 
             <!-- time-->
 
-            <div class="" style="background-color: #f7f7f7;width: 100%;height: 600px;">
-                <div class="w-100 d-flex justify-content-center align-items-end" style="height: 100px;">
+            <div class="w-100 py-4" style="background-color: #f7f7f7;">
+                <div class="w-100 d-flex justify-content-center align-items-end " style="height: 100px;">
                     <h3 class="text-center">Juicy Timing</h3>
                 </div>
 
-                <div class="container d-flex justify-content-center">
-                    <div class="rounded-5 d-flex align-items-center justify-content-center"
-                        style="width: 500px;height: 400px;box-shadow: 10px 10px 30px black;background-image: url(https://www.alphafoodie.com/wp-content/uploads/2021/11/Apple-Juice-Square.jpeg);background-size: cover;">
+                <div class="container d-flex flex-column flex-lg-row align-items-center justify-content-center">
+                    <div class="rounded-5 d-flex align-items-center justify-content-center "
+                        style="width: 400px;height: 400px; box-shadow: 10px 10px 30px black;background-image: url(https://www.alphafoodie.com/wp-content/uploads/2021/11/Apple-Juice-Square.jpeg);background-size: cover;">
                         <h1 class=" text-light text-center ">JUICY DAY <br> HAPPY DAY</h1>
                     </div>
-                    <div class="rounded-5" style="width: 500px;height: 400px;box-shadow: 10px 10px 30px black;">
+                    <div class="rounded-5" style="width: 400px;height: 400px; box-shadow: 10px 10px 30px black;">
                         <div class="">
                             <h1 class="text-center" style="font-size: 30px;">Opening Hours </h1><br>
 
